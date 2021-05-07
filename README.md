@@ -14,4 +14,13 @@ cd docker-youphptube
 make start
 ```
 
+## 設定
+
+|項目|設定値|
+|:-|:-:|
+|Contact E-mail|メールアドレス|
+|Database Host|192.168.1.2|
+|Database Password|root|
+|System Admin password||
+|Confirm System Admin password||
 
