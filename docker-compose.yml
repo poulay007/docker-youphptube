@@ -20,7 +20,9 @@ services:
     container_name: youphptubeen
     restart: always
     ports:
-      - 8080:8000
+      - 8000:8000
+    volumes:
+      - ./YouPHPTubeen/videos:/var/www/html/videos
     networks:
       local:
         ipv4_address: 192.168.1.4
